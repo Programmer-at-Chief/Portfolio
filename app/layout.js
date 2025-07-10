@@ -56,14 +56,13 @@ const ovo = Ovo({
 export const metadata = {
   title: "Portfolio | PAC",
   icons: {
-    icon: '/favicon.ico',
+    icon: '/icon.ico',
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-    <link rel="icon" href="/favicon.ico" sizes="any" />
     <head>
     <ThemeModeScript />
     </head>

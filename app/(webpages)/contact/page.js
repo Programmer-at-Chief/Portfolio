@@ -34,7 +34,7 @@ export default function Contact() {
 
   return (
     <div className="px-[12%] flex justify-center items-center min-h-screen">
-    <div className="flex flex-col p-48 gap-5 bg-cover bg-center items-center" id='image_bg'>
+    <div className="flex flex-col p-48 mt-20 gap-5 bg-cover bg-center items-center" id='image_bg'>
     <a href="https://www.instagram.com/chauhan_aman2004/" className="text-3xl dark:text-amber-800 text-amber-300 hover:bg-gray-600/70 hover:rounded-2xl px-2" onMouseEnter={() => setImage(1)} onMouseLeave={() => removeImage()}>Instagram</a>
     <a href="https://www.linkedin.com/in/aman-chauhan-in" className="text-3xl dark:text-amber-800 text-amber-300 hover:bg-gray-600/70 hover:rounded-2xl text-center w-[80%]" onMouseEnter={() => setImage(2)} onMouseLeave={() => removeImage()}>LinkedIn</a>
     <a href="https://github.com/Programmer-at-Chief" className="text-3xl dark:text-amber-800 text-amber-300 hover:bg-gray-600/70 hover:rounded-2xl text-center w-[70%]" onMouseEnter={() => setImage(3)} onMouseLeave={() => removeImage()}>Github</a>

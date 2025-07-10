@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --font-sevillana: var(--font-sevillana);
+  --font-ovo: var(--font-ovo);
+  --font-roboto: var(--font-roboto);
+  --font-merienda: var(--font-merienda);
+  --font-acorn: var(--font-acorn);
+}
+
+.animated-background {
+  background-size: 600% 600%;
+
+  animation: gradientShift 10s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@layer utilities{
+  .dark .dark-gradient{
+    background: linear-gradient(to right, #450a0a, #134e4a); 
+  }
+
+  .light-gradient{
+    @apply bg-gradient-to-l from-[#fb7185] via-[#a21caf] to-[#6366f1] 
+  }
+
+  .dark .dark\:hover\:dark-shadow:hover{
+    box-shadow: 4px 4px 0 greenyellow;
+  }
+
+  .hover\:light-shadow:hover {
+    box-shadow: 4px 4px 0 #000;
+  }
+}
+

@@ -36,7 +36,7 @@ useEffect(() => {
     transition={{duration: 0.5,delay: 0.3}}
 
     className="font-acorn text-[clamp(2rem,10vw,10rem)] text-amber-300 text-center font-bold scale-y-110 tracking-tight">
-    <h1>I'm Aman.</h1>
+    <h1>I&apos;m Aman.</h1>
     </motion.div>
 
     <div className="w-full flex flex-col lg:flex-row items-center gap-20 my-20 px-[12%]">

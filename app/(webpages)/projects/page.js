@@ -55,7 +55,7 @@ export default function Projects() {
 
     </div>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-20 px-6 mb-20">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-20 px-6 pb-20">
     {projects.map((project,index) => {
       let isLeftColumn;
       if (isMobile){

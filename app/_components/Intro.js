@@ -5,7 +5,7 @@ import {motion} from 'motion/react';
 export default function Intro() {
 
   return (
-    <div className="flex flex-col items-center pt-60 ">
+    <div className="flex flex-col items-center pt-60 min-h-screen">
     <div className="flex justify-center ">
     <motion.img 
     initial= {{x:-40,opacity: 0}}

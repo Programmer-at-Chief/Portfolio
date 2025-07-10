@@ -33,7 +33,7 @@ export default function Intro() {
     initial= {{y:-40,opacity: 0}}
     whileInView={{y:0,opacity: 1}}
     transition={{duration: 0.8,delay:'0.3', type: 'tween',stiffness:100}}
-    className="font-roboto text-lg text-center text-amber-500">I'm a 3rd year student, passionate about web development.</motion.p>
+    className="font-roboto text-lg text-center text-amber-500">I&apos;m a 3rd year student, passionate about web development.</motion.p>
 
     </div>
   )

@@ -49,7 +49,7 @@ useEffect(() => {
 
     </motion.div>
     <div className="flex-1 ">
-    <p className="mb-5 max-w-3xl text-lg font-roboto dark:text-orange-200">I am a student of mathematics and computing, IIT BHU. I have experience in many languages and love to tinker with my desktop. I am a linux enthusiast and a open source enjoyer. I love to work on projects and adapt to newwer technologies. Peace 🖖🏽</p>
+    <p className="mb-5 max-w-3xl text-lg font-roboto dark:text-orange-200">I am a student of mathematics and computing, IIT BHU. I have experience in many languages and love to tinker with my desktop. I am a linux enthusiast and a open source enjoyer. I love to work on projects and adapt to new technologies. Peace 🖖🏽</p>
     <p className="text-center mb-5 max-w-2xl text-6xl font-acorn dark:text-orange-600">I use Arch btw.</p>
     <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
     {infoList.map(({icon,iconDark,title,description},index) => (

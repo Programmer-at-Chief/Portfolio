@@ -18,7 +18,7 @@ export default function Intro() {
     whileInView={{scale:1}}
     transition={{duration: 0.8, type: 'spring', stiffness: 100}}
     className="font-acorn text-[clamp(2rem,10vw,10rem)] text-amber-300 text-center font-bold scale-y-110 tracking-tight">
-    <h1 className="leading-12">Hi. I'm Aman.</h1>
+    <h1 className="leading-12">Hi. I&apos;m Aman.</h1>
     <h1>A Designer.</h1>
     </motion.div>
 

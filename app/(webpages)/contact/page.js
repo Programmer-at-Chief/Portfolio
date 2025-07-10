@@ -1,6 +1,6 @@
 "use client"
 
-export default function page() {
+export default function Contact() {
 
   function setImage(link_num){
     const element = document.getElementById('image_bg')

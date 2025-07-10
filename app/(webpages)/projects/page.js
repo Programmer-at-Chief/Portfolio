@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { motion } from "motion/react";
 import { useEffect,useState } from "react";
 
-export default function page() {
+export default function Projects() {
 
   const route = useRouter();
 

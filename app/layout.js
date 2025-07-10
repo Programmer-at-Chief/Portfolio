@@ -26,19 +26,19 @@ const roboto = Roboto({
 
 const acorn = localFont({
   src:[
-  {
+    {
       path: '../public/Acorn/Acorn-Medium.otf',
       style: 'normal',
     },
-{
+    {
       path: '../public/Acorn/Acorn-Bold.otf',
       style: 'bold',
     },
-{
+    {
       path: '../public/Acorn/Acorn-Regular.otf',
       style: 'regular',
     },
-{
+    {
       path: '../public/Acorn/Acorn-SemiBold.otf',
       style: 'semibold',
     },
@@ -56,7 +56,9 @@ const ovo = Ovo({
 export const metadata = {
   title: "Portfolio | PAC",
   icons: {
-    icon: '/favicon.ico',
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+    shortcut: "/favicon-32x32.png"
   },
 };
 
@@ -64,7 +66,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
     <head>
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#ffffff" />
     <ThemeModeScript />
     </head>
     <body

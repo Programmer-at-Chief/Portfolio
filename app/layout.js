@@ -55,6 +55,9 @@ const ovo = Ovo({
 
 export const metadata = {
   title: "Portfolio | PAC",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({ children }) {
